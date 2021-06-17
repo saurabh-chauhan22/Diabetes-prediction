@@ -1,0 +1,135 @@
+{% extends 'layout1.html' %}
+
+{% block title %}LOGIN{% endblock %}
+
+{% block content %}
+<h2></h2>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+<div>
+     <center>
+        <div class="a" style="background-color:grey">
+        
+        <p style="color:white;text-align:center;font-size:50px;">DIABETES PREDICTION SYSTEM</p>
+<img src="/static/images/3.jpg">
+        </div>
+<br><br>
+        <div class="a" style="background-color:darkgrey">
+        <p>
+ 
+<p align="left">Diabetes mellitus, commonly known as diabetes, is a metabolic disease that causes high blood sugar. The hormone insulin moves sugar from the blood into your cells to be stored or used for energy. With diabetes, your body either doesn’t make enough insulin or can’t effectively use the insulin it does make.
+</p>
+<p align="left">
+Untreated high blood sugar from diabetes can damage your nerves, eyes, kidneys, and other organs. Diabetes is considered as one of the deadliest and chronic diseases which causes an increase in blood sugar. Many complications occur if diabetes remains untreated and unidentified.Early prediction of diabetes is quite challenging task for medical practitioners. 
+</p> 
+<p align="left">
+The rise in machine learning approaches solves this critical problem. The motive of this system
+is to design a model which can predict the likelihood of diabetes in patients with maximum
+accuracy.</p></p>
+<p align="left">The System requires different input parameters to predict whether the person suffers from Diabetes or not.These features are:<br>
+1. Number of Pregnancies<br>
+2. Glucose<br>
+3. Blood Pressure<br>
+4. Skin Thickness<br>
+5. Insulin<br>
+6. Body Mass Index<br>
+7. Diabetes pedigree function<br>
+8. Age in years<br></p>
+</p>
+<p align="left">
+The general symptoms of diabetes include:<br>
+1. Increased hunger<br>
+2. Increased thirst<br>
+3. Weight loss<br>
+4. Frequent urination<br>
+5. Blurry vision<br>
+6. Extreme fatigue<br></p>
+</p>
+<p align="left">
+In order to keep your blood sugar levels steady, try to eat small meals throughout the day. Emphasize healthy foods such as:<br>
+1. Fruits <br>
+2. Vegetables<br>
+3. Whole grains<br>
+4. Lean protein such as poultry and fish<br>
+5. Healthy fats such as olive oil and nuts<br></p>
+</p> 
+<p align="left">If you’ve been diagnosed with prediabetes, here are a few things you can do to delay or prevent diabetes:<br>
+1. Get at least 150 minutes per week of aerobic exercise, such as walking or cycling<br>
+2. Cut saturated and trans fats, along with refined carbohydrates, out of your diet<br>
+3. Eat more fruits, vegetables, and whole grains<br>
+4. Eat smaller portions<br>
+5. Try to lose 7% Trusted Source of your body weight if you’re overweight or obese<br>
+</p>
+
+</div>
+
+		 
+{% endblock %}
